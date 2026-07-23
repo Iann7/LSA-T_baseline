@@ -1,6 +1,5 @@
 import pandas as pd
 from collections import Counter
-
 # 1. Cargar datos
 df = pd.read_csv("meta_with_splits.csv")
 train = df[df['split'] == 'train']
